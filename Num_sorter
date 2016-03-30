@@ -1,0 +1,22 @@
+
+"""
+Even list vs odd list
+by: jhew86
+"""
+
+#Script that takes a list and appends the numbers to one
+# of two lists based on whether they are even or odd.
+
+a=[2, 15, 4,8,7, 9, 12, 3, 11]
+even=[]
+odd=[]
+
+for i in a:
+    if i % 2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+        print("the even numbers are: ",even)
+        print("the odd numbers are: ",odd)
+
