@@ -1,0 +1,19 @@
+"""
+script: EVEN OR ODD
+by: jhew86
+"""
+num=float(input("Enter a number"))
+check=float(input("enter number to divide by"))
+if num % 2==0:
+    print("First number is an even number")
+else:
+    print("this is an odd number")
+if check % 2==0:
+        print("Second number is an even number")
+else:
+    print("this is an odd number")
+
+if num % check==0:
+    print(num, "divides evenly by", check)
+else:
+    print("these numbers do not divide evenly")
